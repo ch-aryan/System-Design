@@ -1,4 +1,4 @@
-package com.securitypractice.practicewithsanketh.Behavioral.Strategy;
+package com.practicewithsanketh.Behavioral.Strategy;
 
 // PaymentStrategy interface (defines the common method for all payment types)
  interface PaymentStrategy1 {
@@ -27,6 +27,7 @@ class StripePayment1 implements PaymentStrategy1 {
 class PaymentProcessor2 {
      PaymentStrategy1 paymentStrategy;
      public PaymentProcessor2(PaymentStrategy1 paymentStrategy) {
+
          this.paymentStrategy = paymentStrategy;
      }
      public void processPayment() {

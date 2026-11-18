@@ -1,4 +1,4 @@
-package com.securitypractice.practicewithsanketh.Behavioral.Strategy;
+package com.practicewithsanketh.Behavioral.Strategy;
 
 class PaymentProcessor {
     // This method will process payment based on payment method type
